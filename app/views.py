@@ -9,7 +9,7 @@ from systeminfo.main import get_platform
 @app.route('/')
 def index():
     returnDict = {}
-    returnDict['user'] = 'COMP30670'
+    returnDict['user'] = 'Eimear'
     returnDict['title'] = 'Home'
     returnDict['platform'] = get_platform()
     return render_template("index.html", **returnDict)
