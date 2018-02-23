@@ -64,7 +64,7 @@ git clone https://github.com/Eimg851/FlaskCookiecutterTemplate.git
   
 6. Run the flask application:
 ``` 
-python flask/dummyapp/run.py
+python dummyapp/run.py
 ```
   
   
